@@ -1,0 +1,238 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+header {
+  height:65px;
+  background-color: rgba(34.49,52,0.9);
+  color:white;
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.foot {
+  width:1170px;
+  margin:0 auto;
+}
+
+.proimg {
+  width:124px;
+  margin-top:20px;
+}
+
+.title {
+  float:left;
+
+}
+
+
+.login {
+  float:right;
+  height:65px;
+  background-color: rgba(255,255,255,0.3);
+  padding: 0 25px;
+}
+.login a {
+  line-height:4em;
+  color: white;
+}
+
+.container {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  text-align: center;
+  padding:180px 0 100px 0;
+}
+
+.contents-what {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.container h1 {
+   color: white;
+   opacity: 0.7;
+   font-size: 45px;
+   font-weight: bold;
+   letter-spacing: 5px;
+}
+
+
+.container p {
+   color: white;
+   opacity: 0.7;
+}
+
+
+.container a {
+   display: inline-block;
+   color: white;
+   padding:8px 24px;
+}
+
+.toroku  {
+  background-color: #239b76;
+  opacity: 0.8;
+  margin-top:30px;
+  
+}
+
+.or {
+  padding:15px 0;
+}
+
+.face {
+  background-color: #3b5998;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+
+.twi {
+  background-color: #55acee;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+
+.learnstart {
+  text-align:center;
+  height:490px;
+  padding-top:80px;
+  background-color: #f7f7f7;
+}
+
+.learnstart h3 {
+  color: #5f5d60;
+  font-weight:normal;
+}
+
+.languages{
+  width:1170px;
+  margin:0 auto;
+  margin-top:50px;
+}
+
+.lang {
+  float:left;
+  width:25%;
+  position:relative;
+}
+
+
+.expl {
+  position:absolute;
+  top:31%;
+  width:100%;
+  color:white;
+}
+
+.expl2 {
+  position:absolute;
+  top:28%;
+  width:100%;
+  color:white;
+}
+
+.expl3 {
+  position:absolute;
+  top:27%;
+  width:100%;
+  color:white;
+}
+
+.expl4 {
+  position:absolute;
+  top:33%;
+  width:100%;
+  color:white;
+}
+.setu {
+  width: 80%;
+  color: #b3aeb5;
+  font-size:13px;
+  margin:0 auto;
+  margin-top:15px;
+}
+
+.outro {
+  text-align:center;
+  padding:80px 0;
+}
+.message {
+  display:inline-block;
+  margin-top:50px;
+  padding:15px 40px;
+  background-color:#5dca88;
+  cursor:pointer;
+  opacity:0.8;
+  box-shadow:0 7px #1a7940;
+  border-radius:4px;
+}
+
+.message {
+  color:white;
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+.message:active {
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+.saa {
+  font-size:24px;
+  color:#5f5d60;
+}
+
+.let {
+  font-size:20px;
+  color:#5f5d60;
+}
+
+footer {
+  border-top: solid 1px #eee;
+  padding:30px 0;
+  color:#b3aeb5;
+}
+
+.foote {
+  width:1170px;
+  margin:0 auto;
+}
+
+.foot {
+  font-size:12px;
+}
+
+.foot-img {
+  width:124px;
+}
